@@ -1,0 +1,32 @@
+torch==2.1.2 --index-url https://download.pytorch.org/whl/cu118
+torchvision==0.16.2 --index-url https://download.pytorch.org/whl/cu118
+torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu118
+torchcodec==0.2.0
+mmengine==0.10.7
+lmdb==1.6.2
+msgpack==1.1.0
+decord==0.6.0
+transformers==4.51.0
+accelerate
+pandas==2.3.2
+pyarrow==19.0.1
+trl==0.19.0
+deepspeed==0.16.4
+wandb==0.20.1
+scikit-learn
+
+# test
+openai
+fastapi
+uvicorn
+msgpack_numpy
+flash_attn==2.7.2.post1
+
+# collect data
+sknw
+numpy==1.26.1
+scikit-image
+habitat-lab==0.2.420230405
+habitat-baselines==0.2.420230405
+git+https://github.com/naokiyokoyama/frontier_exploration.git
+git+https://github.com/naokiyokoyama/depth_camera_filtering.git#egg=depth_camera_filtering

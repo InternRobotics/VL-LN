@@ -1,0 +1,8 @@
+data
+check_sim
+
+.vscode
+__pycache__
+*__pycache__
+*.egg-info
+*.pyc
