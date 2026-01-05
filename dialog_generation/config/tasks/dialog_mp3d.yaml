@@ -48,4 +48,4 @@ habitat:
     type: dialog
     split: unseen
     scenes_dir: VL-LN-Bench/scene_datasets
-    data_path: VL-LN-Bench/raw_data/mp3d/train/train_iion.json.gz
+    data_path: VL-LN-Bench/raw_data/mp3d/train/train_iign.json.gz

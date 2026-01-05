@@ -19,7 +19,7 @@ srun python -u generate_frontiers_dialog.py \
     --scene_ids all \
     --shortest_path_threshold 0.1 \
     --target_detected_threshold 5 \
-    --episodes_file_path VL-LN-Bench/raw_data/mp3d/train/train_iion.json.gz \
+    --episodes_file_path VL-LN-Bench/raw_data/mp3d/train/train_iign.json.gz \
     --habitat_config_path dialog_generation/config/tasks/dialog_mp3d.yaml \
     --baseline_config_path dialog_generation/config/expertiments/gen_videos.yaml \
     --normal_category_path dialog_generation/normal_category.json \

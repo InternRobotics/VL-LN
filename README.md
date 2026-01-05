@@ -33,16 +33,16 @@ After unzipping the base model, scene datasets, and trajectory data, put everyth
   ```bash
   VL-LN-Bench/
   ├── base_model/ 
-  │   └── iion/
+  │   └── iign/
   ├── raw_data/ 
   │   └── mp3d/
   │       ├── scene_summary/
   │       ├── train/ 
-  │       │   ├── train_ion.json.gz
-  │       │   └── train_iion.json.gz
+  │       │   ├── train_ign.json.gz
+  │       │   └── train_iign.json.gz
   │       └── val_unseen/ 
-  │           ├── val_unseen_ion.json.gz
-  │           └── val_unseen_iion.json.gz
+  │           ├── val_unseen_ign.json.gz
+  │           └── val_unseen_iign.json.gz
   ├── scene_datasets/
   │   └── mp3d/
   │       ├── 17DRP5sb8fy/
@@ -102,7 +102,7 @@ After unzipping the base model, scene datasets, and trajectory data, put everyth
       --scene_ids all \
       --shortest_path_threshold 0.1 \
       --target_detected_threshold 5 \
-      --episodes_file_path VL-LN-Bench/raw_data/mp3d/train/train_iion.json.gz \
+      --episodes_file_path VL-LN-Bench/raw_data/mp3d/train/train_iign.json.gz \
       --habitat_config_path dialog_generation/config/tasks/dialog_mp3d.yaml \
       --baseline_config_path dialog_generation/config/expertiments/gen_videos.yaml \
       --normal_category_path dialog_generation/normal_category.json \
